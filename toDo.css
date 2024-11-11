@@ -1,0 +1,17 @@
+body{
+    background-color: #1a1a1a;
+    margin: 0%;
+}
+.Device{
+    border-radius: 20px;
+    border: 2px #fff solid;
+    height: 40rem;
+    width: 20rem;
+    margin: auto;
+}
+#newTask{
+    height: 5rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+}
