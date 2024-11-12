@@ -1,12 +1,9 @@
 function addTask() {
   const createOne = prompt("Даалгавар нэмээрэй");
-  document.getElementById("newTask").innerHTML +=
-    '<div id="newTask">' + createOne + "</div>";
+  document.getElementById("Task-container").innerHTML +=
+    '<div class="Task-container">' +
+    createOne +
+    ' <i class="glyphicon glyphicon-trash"></i> ' +
+    "</div>";
 }
 addTask();
-// function deleteBtn(){
-//   const deletebox=[]
-//   for(let i=0 ; i<=){
-
-//   }
-// }

@@ -4,14 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>To Do</title>
     <link rel="stylesheet" href="toDo.css">
 </head>
 
 <body>
+    <div id="modal">
+        <div class="input">Hello</div>
+    </div>
     <div class="Device">
-        <button onclick="addTask();">Add task</button>
-        <div id="newTask"></div>
+        <button id="add-task" onclick="addTask() ;"><i style="font-size:20px" class="fa">&#xf067;</i></button>
+        <div id="right-now" class="Task-container">
+            <h4>Яг одоо</h4>
+        </div>
+        <div id="tommorow" class="Task-container">
+            <h4>Маргаашнаас</h4>
+        </div>
+        <div id="week" class="Task-container">
+            <h4>Долоо хоног</h4>
+        </div>
+        <div id="year" class="Task-container">
+            <h4>Жилээр</h4>
+        </div>
     </div>
     </div>
     <script src="toDo.js"></script>

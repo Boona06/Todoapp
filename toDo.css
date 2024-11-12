@@ -3,15 +3,45 @@ body{
     margin: 0%;
 }
 .Device{
+    height: 896px;
+    width: 414px;
     border-radius: 20px;
     border: 2px #fff solid;
-    height: 40rem;
-    width: 20rem;
     margin: auto;
+    overflow-y: scroll;
 }
-#newTask{
-    height: 5rem;
+#add-task{
+    background-color: rgba(254, 175, 47, 0.936);
+    color: #fff;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+}
+.Task-container{
+    height: 15rem;
     width: 100%;
-    background-color: #fff;
+    background-color: #e0c36e;
     border-radius: 20px;
+    text-align: center;
+}
+#modal{
+ position: fixed;
+ top: 0%;
+ bottom: 0%;
+ left: 0%;
+ right: 0%;
+ background-color: rgba(254, 175, 47, 0.1);
+ z-index: 4;
+
+}
+.input{
+    margin: 200px auto;
+   height: 10rem;
+   width: 15em;
+   background-color: #d9be22;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
 }
