@@ -1,9 +1,9 @@
+const todo = [];
+const select = document.getElementById("modal");
+const input = document.getElementById("input");
 function addTask() {
-  const createOne = prompt("Даалгавар нэмээрэй");
-  document.getElementById("Task-container").innerHTML +=
-    '<div class="Task-container">' +
-    createOne +
-    ' <i class="glyphicon glyphicon-trash"></i> ' +
-    "</div>";
+  select.style.display = "block";
 }
-addTask();
+function Save() {
+  select.style.display = "none";
+}

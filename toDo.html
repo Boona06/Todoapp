@@ -13,7 +13,16 @@
 
 <body>
     <div id="modal">
-        <div class="input">Hello</div>
+        <div class="input-container">
+            <input type="text" placeholder="Хийх зүйлээ бичээрэй" value="" id="input">
+            <select id="select-box">
+                <option value="right-now">Яг одоо</option>
+                <option value="tommorow">Маргаашнаас</option>
+                <option value="week">7 хоног</option>
+                <option value="year">Жилээр</option>
+            </select>
+            <button id="Save" onclick="Save()">Оруулах</button>
+        </div>
     </div>
     <div class="Device">
         <button id="add-task" onclick="addTask() ;"><i style="font-size:20px" class="fa">&#xf067;</i></button>

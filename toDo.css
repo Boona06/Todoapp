@@ -17,6 +17,7 @@ body{
     width: 40px;
     height: 40px;
     border: 1px solid green;
+   
 }
 .Task-container{
     height: 15rem;
@@ -33,15 +34,17 @@ body{
  right: 0%;
  background-color: rgba(254, 175, 47, 0.1);
  z-index: 4;
-
+ display: none;
 }
-.input{
+.input-container{
     margin: 200px auto;
    height: 10rem;
    width: 15em;
    background-color: #d9be22;
-   display: flex;
-   justify-content: center;
    align-items: center;
    border-radius: 20px;
+}
+#Save{
+    background-color: #877777;
+    width: 100%;
 }
